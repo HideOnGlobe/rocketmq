@@ -24,6 +24,9 @@ import java.util.Map;
 
 public class InnerLoggerFactory extends InternalLoggerFactory {
 
+    /**
+     * 注册到父工厂中
+     */
     public InnerLoggerFactory() {
         doRegister();
     }

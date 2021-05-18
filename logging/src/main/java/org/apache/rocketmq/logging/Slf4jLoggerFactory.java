@@ -22,6 +22,10 @@ import org.slf4j.LoggerFactory;
 
 public class Slf4jLoggerFactory extends InternalLoggerFactory {
 
+    /**
+     * 初始化
+     * 注册到父工厂中
+     */
     public Slf4jLoggerFactory() {
         LoggerFactory.getILoggerFactory();
         doRegister();
